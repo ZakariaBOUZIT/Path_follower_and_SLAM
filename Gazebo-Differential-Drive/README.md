@@ -21,7 +21,7 @@ In this package I created Xacro files of a differential-drive robot, simulate it
 Create a workspace, clone the repo, and build the workspace:
 ```
 mkdir -p ws/src && cd ws/src
-git clone https://github.com/YaelBenShalom/Gazebo-Differential-Drive.git
+git clone
 cd ../..
 catkin_make
 source devel/setup.bash 
@@ -35,18 +35,18 @@ source devel/setup.bash
     1. To make the robot follow a rectangular path, add `follow_rect:=True` to the roslaunch command.
 
     <p align="center">
-        <img align="center" src="https://github.com/YaelBenShalom/Gazebo-Differential-Drive/blob/master/GIFs/follow_rect.gif">
+        <img align="center" src="https://github.com/ZakariaBOUZIT/Path_follower_and_SLAM/blob/master/Gazebo-Differential-Drive/GIFs/follow_rect.gif">
     </p>
 
     2. To make the robot flip over and continue driving, add `flip_over:=True` to the roslaunch command.
 
     <p align="center">
-        <img align="center" src="https://github.com/YaelBenShalom/Gazebo-Differential-Drive/blob/master/GIFs/flip_over.gif">
+        <img align="center" src="https://github.com/ZakariaBOUZIT/Path_follower_and_SLAM/blob/master/Gazebo-Differential-Drive/GIFs/flip_over.gif">
     </p>
 
 2. To launch the differential-drive robot using RViz simulation, run `roslaunch diff_drive ddrive_rviz.launch`. The robot starts from position *(x,y) = (-3,-3)* in rest mode.
 
     <p align="center">
-        <img align="center" src="https://github.com/YaelBenShalom/Gazebo-Differential-Drive/blob/master/GIFs/follow_rect_rviz.gif">
+        <img align="center" src="https://github.com/ZakariaBOUZIT/Path_follower_and_SLAM/blob/master/Gazebo-Differential-Drive/GIFs/follow_rect_rviz.gif">
     </p>
 

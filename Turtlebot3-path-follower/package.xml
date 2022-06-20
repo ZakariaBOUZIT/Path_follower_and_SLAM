@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>turtlebot_path_following</name>
+  <version>0.0.1</version>
+  <description>Turtlebot following a defined path</description>
+  <maintainer email="zakaria.elhabib.bouzit@gmail.com">zackq</maintainer>
+  <license>MIT</license>
+
+ 
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>tf2</build_depend>
+  <build_depend>tf2_ros</build_depend>
+  
+  <depend>geometry_msgs</depend>
+  <depend>turtlesim</depend> 
+
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>rviz</exec_depend>
+  <exec_depend>rqt_plot</exec_depend>
+  <exec_depend>turtlebot3_gazebo</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>joint_state_publisher_gui</exec_depend>  
+
+</package>

@@ -1,0 +1,17 @@
+<launch>
+
+   <node name="trajectory" pkg="turtlebot_path_following" type="trajectory.py" output="screen" />
+   
+   <node name="turtlesim" pkg="turtlesim" type="turtlesim_node" />
+   
+   <node name="rqt_plot" pkg="rqt_plot" type="rqt_plot" />
+   
+   <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_empty_world.launch" />
+   
+   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find turtlebot_path_following)/config/turtle_view.rviz" />
+   
+   <node pkg="robot_state_publisher" type="robot_state_publisher" name="rob_st_pub" >
+      <remap from="joint_state" to="different_joint_states" />
+   </node>
+   
+</launch>

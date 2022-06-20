@@ -29,7 +29,7 @@ The package contain 4 launchfiles and 1 node:
 Create a workspace, clone the repo, and build the workspace:
 ```
 mkdir -p ws/src && cd ws/src
-git clone https://github.com/YaelBenShalom/Turtlebot3-Navigation-with-SLAM.git
+git clone 
 cd ../..
 catkin_make
 source devel/setup.bash 
@@ -50,7 +50,7 @@ source devel/setup.bash
     - Move the robot by setting 2D navigation goals in Rviz.
 
     <p align="center">
-        <img align="center" src="https://github.com/YaelBenShalom/Turtlebot3-Navigation-with-SLAM/blob/master/videos/nav_stack.gif">
+        <img align="center" src="https://github.com/ZakariaBOUZIT/Path_follower_and_SLAM/blob/master/Turtlebot3-Navigation-with-SLAM/videos/nav_stack.gif">
     </p>
 
 
@@ -60,7 +60,7 @@ source devel/setup.bash
     - Explore the space by setting 2D navigation goals manually in rviz.
 
     <p align="center">
-        <img align="center" src="https://github.com/YaelBenShalom/Turtlebot3-Navigation-with-SLAM/blob/master/videos/slam_stack.gif">
+        <img align="center" src="https://github.com/ZakariaBOUZIT/Path_follower_and_SLAM/blob/master/Turtlebot3-Navigation-with-SLAM/videos/slam_stack.gif">
     </p>
 
 4. To launch the `explore.launch` launchfile on Gazebo and Rviz simulation, run:<br>
@@ -69,13 +69,12 @@ source devel/setup.bash
     - Explore the space by randomly picking 2D navigation goals automatically in rviz.
 
     <p align="center">
-        <img align="center" src="https://github.com/YaelBenShalom/Turtlebot3-Navigation-with-SLAM/blob/master/videos/explore.gif">
+        <img align="center" src="https://github.com/ZakariaBOUZIT/Path_follower_and_SLAM/blob/master/Turtlebot3-Navigation-with-SLAM/videos/explore.gif">
     </p>
     
-    (This video speed is X10)
 
     - The generated map:
 
     <p align="center">
-        <img align="center" src="https://github.com/YaelBenShalom/Turtlebot3-Navigation-with-SLAM/blob/master/videos/map.jpg">
+        <img align="center" src="https://github.com/ZakariaBOUZIT/Path_follower_and_SLAM/blob/master/Turtlebot3-Navigation-with-SLAM/videos/map.jpg">
     </p>
